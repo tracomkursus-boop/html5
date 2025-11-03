@@ -1,2 +1,55 @@
 HTML adalah bahasa markup standar untuk halaman Web.
 Dengan HTML Anda dapat membuat situs web Anda sendiri.
+
+HTML adalah bahasa markup standar untuk membuat halaman Web.
+Apa itu HTML?
+HTML adalah singkatan dari Hyper Text Markup Language
+HTML adalah bahasa markup standar untuk membuat halaman Web
+HTML menggambarkan struktur halaman Web
+HTML terdiri dari serangkaian elemen
+Elemen HTML memberi tahu browser cara menampilkan konten
+Elemen HTML memberi label pada bagian konten seperti "ini adalah judul", "ini adalah paragraf", "ini adalah tautan", dan lain-lain.
+
+Contoh Dokumen HTML Sederhana:
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
+
+</body>
+</html>
+
+Semua dokumen HTML harus dimulai dengan deklarasi tipe dokumen: <!DOCTYPE html>.
+Dokumen HTML itu sendiri dimulai dengan <html>dan diakhiri dengan </html>.
+Bagian yang terlihat dari dokumen HTML berada di antara <body>dan </body>.
+Deklarasi <!DOCTYPE>
+Deklarasi tersebut <!DOCTYPE>mewakili jenis dokumen, dan membantu browser menampilkan halaman web dengan benar.
+Hanya boleh muncul satu kali, di bagian atas halaman (sebelum tag HTML apa pun).
+Deklarasi <!DOCTYPE>tidak peka huruf besar/kecil.
+Deklarasi <!DOCTYPE>untuk HTML5 adalah:
+
+Judul HTML
+Judul HTML didefinisikan dengan tag <h1>to <h6>.
+<h1>mendefinisikan judul yang paling penting. <h6>mendefinisikan judul yang paling tidak penting: 
+Contoh
+<h1>This is heading 1</h1>
+<h2>This is heading 2</h2>
+<h3>This is heading 3</h3>
+
+Elemen HTML
+Elemen HTML adalah segalanya dari tag awal hingga tag akhir:
+
+< tagname > Konten ada di sini... < /tagname >
+Contoh beberapa elemen HTML:
+
+< h1 > Judul Pertama Saya < /h1 >
+< p > Paragraf pertama saya. < /p >
+<br>	 Beberapa elemen HTML tidak memiliki konten (seperti elemen <br>). Elemen-elemen ini disebut elemen kosong.
+       Elemen kosong tidak memiliki tag penutup!
+
